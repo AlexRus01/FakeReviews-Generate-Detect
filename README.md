@@ -12,6 +12,9 @@ Instructions
     Run the Classifier:
     Use the bert.py script with the dataset generated in the previous step to train and test the classifier.
 
+    Generate Reviews:
+    Use the GenerateReviews-trainedModel.py script loading the trained model from the location
+
 Notes
 
     The bert.py script was designed to run on FEP, utilizing data from mounted directories. You may need to update file paths in the script to match your local or cloud environment configuration.
